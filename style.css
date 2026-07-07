@@ -258,9 +258,14 @@ h3 {
   color: var(--purple);
 }
 
-.hero-card h2 {
-  font-size: clamp(2rem, 4vw, 4rem);
+.question-title {
+  font-family: "Atelia", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.05;
+  letter-spacing: 0;
+  font-weight: normal;
   color: var(--dark);
+  margin: 0 0 16px;
 }
 
 .section {
