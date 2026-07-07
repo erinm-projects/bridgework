@@ -213,7 +213,7 @@ h3 {
 
 .hero-card-image {
   width: calc(100% + 68px);
-  height: 180px;
+  height: 360px;
   object-fit: cover;
   margin: -34px -34px 20px;
 }
@@ -474,7 +474,7 @@ li {
 }
 
 .footer-logo img {
-  height: 16px;
+  height: 28px;
   width: auto;
 }
 
