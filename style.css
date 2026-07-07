@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Artific";
-  src: url("assets/fonts/artifictrial-black.otf") format("opentype");
+  src: url("assets/fonts/artifictrial-light.otf") format("opentype");
 }
 
 :root {
@@ -166,15 +166,15 @@ h1 {
   margin-bottom: 24px;
   max-width: 980px;
   font-size: clamp(3.4rem, 9vw, 8.8rem);
-  line-height: 0.86;
-  letter-spacing: -0.08em;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
 }
 
 h2 {
   margin-bottom: 20px;
   font-size: clamp(2.1rem, 5vw, 5.6rem);
-  line-height: 0.92;
-  letter-spacing: -0.07em;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
 }
 
 h3 {
@@ -213,7 +213,7 @@ h3 {
 
 .hero-card-image {
   width: calc(100% + 68px);
-  height: 90px;
+  height: 180px;
   object-fit: cover;
   margin: -34px -34px 20px;
 }
