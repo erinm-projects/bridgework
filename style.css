@@ -106,6 +106,7 @@ a {
   padding: 10px 18px;
   background: var(--lime);
   color: var(--dark);
+  border-color: var(--dark);
 }
 
 .button {
@@ -122,11 +123,13 @@ a {
 .primary {
   background: var(--purple);
   color: var(--dark);
+  border-color: var(--cream);
 }
 
 .secondary {
   background: var(--teal);
   color: var(--cream);
+  border-color: var(--cream);
 }
 
 .hero {
