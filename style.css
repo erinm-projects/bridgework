@@ -41,7 +41,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Artific", Arial, sans-serif;
+  font-family: "Artific Regular", Arial, sans-serif;
   background: var(--cream);
   color: var(--dark);
   line-height: 1.5;
@@ -51,10 +51,6 @@ h1,
 h2,
 h3 {
   font-family: "Atelia", Arial, sans-serif;
-}
-
-.logo {
-  font-family: Arial, sans-serif;
 }
 
 a {
@@ -192,7 +188,7 @@ h1 {
 
 h2 {
   margin-bottom: 20px;
-  font-size: clamp(20px, 2vw, 32px);
+  font-size: clamp(34px, 3.5vw, 52px);
   line-height: 1.2em;
   letter-spacing: 0;
   font-weight: normal;
