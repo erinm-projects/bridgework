@@ -7,8 +7,17 @@
 }
 
 @font-face {
-  font-family: "Artific";
+  font-family: "Artific Regular";
   src: url("assets/fonts/artifictrial-regular.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Artific Black";
+  src: url("assets/fonts/artifictrial-black.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
