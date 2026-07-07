@@ -104,8 +104,8 @@ a {
 
 .nav-cta {
   padding: 10px 18px;
-  background: var(--dark);
-  color: var(--cream);
+  background: var(--lime);
+  color: var(--dark);
 }
 
 .button {
@@ -120,12 +120,12 @@ a {
 }
 
 .primary {
-  background: var(--cream);
+  background: var(--purple);
   color: var(--dark);
 }
 
 .secondary {
-  background: transparent;
+  background: var(--teal);
   color: var(--cream);
 }
 
