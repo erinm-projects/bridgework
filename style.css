@@ -107,6 +107,7 @@ a {
   background: var(--lime);
   color: var(--dark);
   border-color: var(--dark);
+  border: 2px solid var(--dark);
 }
 
 .button {
@@ -124,12 +125,14 @@ a {
   background: var(--purple);
   color: var(--dark);
   border-color: var(--cream);
+  border: 2px solid var(--cream);
 }
 
 .secondary {
   background: var(--teal);
   color: var(--cream);
   border-color: var(--cream);
+  border: 2px solid var(--cream);
 }
 
 .hero {
