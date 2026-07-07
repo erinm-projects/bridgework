@@ -9,6 +9,17 @@
 @font-face {
   font-family: "Artific";
   src: url("assets/fonts/artifictrial-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Artific";
+  src: url("assets/fonts/artifictrial-black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -565,3 +576,28 @@ li {
     flex-direction: column;
   }
 }
+
+/* Navigation */
+.nav a {
+    font-family: "Artific", Arial, sans-serif;
+    font-weight: 900;
+}
+
+/* Card headings */
+.theme-card h3,
+.price-card h3,
+.timeline-list h3 {
+    font-family: "Artific", Arial, sans-serif;
+    font-weight: 900;
+}
+
+/* Buttons */
+.nav-cta,
+.button {
+    font-family: "Artific", Arial, sans-serif;
+    font-weight: 900;
+}
+
+
+
+
