@@ -171,22 +171,32 @@ p {
 h1 {
   margin-bottom: 24px;
   max-width: 980px;
-  font-size: clamp(3.4rem, 9vw, 8.8rem);
-  line-height: 0.92;
-  letter-spacing: 0.04em;
+  font-size: clamp(52px, 7vw, 79px);
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-synthesis: none;
 }
 
 h2 {
   margin-bottom: 20px;
-  font-size: clamp(2.1rem, 5vw, 5.6rem);
-  line-height: 0.98;
-  letter-spacing: 0.04em;
+  font-size: clamp(32px, 5vw, 64px);
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-synthesis: none;
 }
 
 h3 {
   margin-bottom: 10px;
   font-size: 1.4rem;
-  letter-spacing: 0.04em;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-synthesis: none;
 }
 
 .hero-copy {
