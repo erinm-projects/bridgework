@@ -469,7 +469,7 @@ li {
   color: var(--purple);
 }
 
-.contact h2 span {
+.contact h2 .bridgework {
   color: var(--teal);
 }
 
