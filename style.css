@@ -68,9 +68,11 @@ a {
 }
 
 .logo {
+  font-family: "Atelia", Arial, sans-serif;
   font-size: 1.3rem;
-  font-weight: 900;
-  letter-spacing: -0.04em;
+  font-weight: normal;
+  letter-spacing: 0;
+  font-synthesis: none;
 }
 
 .nav {
