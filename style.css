@@ -1,10 +1,19 @@
+@font-face {
+  font-family: "Atelia";
+  src: url("assets/fonts/atelia.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Artific";
+  src: url("assets/fonts/artific-regular.woff2") format("woff2");
+}
+
 :root {
   --dark: #1e1e1e;
   --cream: #f6f3ed;
   --lime: #d1ff71;
   --teal: #069093;
   --purple: #9192ff;
-  --muted: rgba(30, 30, 30, 0.68);
   --line: rgba(30, 30, 30, 0.16);
   --radius: 28px;
   --shadow: 0 24px 80px rgba(30, 30, 30, 0.18);
@@ -20,10 +29,17 @@ html {
 
 body {
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
+  font-family: "Artific", Arial, sans-serif;
   background: var(--cream);
   color: var(--dark);
   line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+.logo {
+  font-family: "Atelia", Arial, sans-serif;
 }
 
 a {
@@ -109,6 +125,22 @@ a {
   padding: 80px 6vw;
   background: var(--dark);
   color: var(--cream);
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 900;
+}
+
+.powered-by img {
+  height: 34px;
+  width: auto;
 }
 
 .hero-content {
@@ -282,7 +314,7 @@ h3 {
 }
 
 .pricing {
-  background: var(--purple);
+  background: var(--cream);
   color: var(--dark);
 }
 
@@ -297,9 +329,14 @@ h3 {
 }
 
 .price-card {
-  background: var(--cream);
-  color: var(--dark);
+  background: var(--dark);
+  color: var(--cream);
   border: 0;
+}
+
+.price-card p,
+.price-card li {
+  color: rgba(246, 243, 237, 0.82);
 }
 
 .price-card.featured {
@@ -330,8 +367,13 @@ li {
 }
 
 .timeline {
-  background: var(--cream);
-  color: var(--dark);
+  background: var(--dark);
+  color: var(--cream);
+}
+
+.timeline .eyebrow,
+.timeline h2 {
+  color: var(--cream);
 }
 
 .timeline-list {
@@ -358,10 +400,12 @@ li {
 
 .timeline-list div:nth-child(2) {
   background: var(--purple);
+  color: var(--dark);
 }
 
 .timeline-list div:nth-child(3) {
   background: var(--lime);
+  color: var(--dark);
 }
 
 .timeline-list span {
@@ -370,7 +414,7 @@ li {
 }
 
 .hiya {
-  background: var(--lime);
+  background: var(--purple);
   color: var(--dark);
 }
 
