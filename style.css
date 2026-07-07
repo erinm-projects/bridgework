@@ -182,7 +182,7 @@ p {
 h1 {
   margin-bottom: 24px;
   max-width: 980px;
-  font-size: clamp(28px, 3.5vw, 79px);
+  font-size: clamp(40px, 5.8vw, 79px);
   line-height: 1.2em;
   letter-spacing: 0;
   font-weight: normal;
