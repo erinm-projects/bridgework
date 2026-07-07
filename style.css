@@ -171,7 +171,7 @@ p {
 h1 {
   margin-bottom: 24px;
   max-width: 980px;
-  font-size: clamp(52px, 7vw, 79px);
+  font-size: clamp(28px, 3.5vw, 79px);
   line-height: 1.2em;
   letter-spacing: 0;
   font-weight: normal;
@@ -181,7 +181,7 @@ h1 {
 
 h2 {
   margin-bottom: 20px;
-  font-size: clamp(32px, 5vw, 64px);
+  font-size: clamp(20px, 2vw, 32px);
   line-height: 1.2em;
   letter-spacing: 0;
   font-weight: normal;
