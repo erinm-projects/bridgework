@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Artific";
-  src: url("assets/fonts/artifictrial-light.otf") format("opentype");
+  src: url("assets/fonts/artifictrial-regular.otf") format("opentype");
 }
 
 :root {
@@ -167,20 +167,20 @@ h1 {
   max-width: 980px;
   font-size: clamp(3.4rem, 9vw, 8.8rem);
   line-height: 0.92;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.04em;
 }
 
 h2 {
   margin-bottom: 20px;
   font-size: clamp(2.1rem, 5vw, 5.6rem);
   line-height: 0.98;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.04em;
 }
 
 h3 {
   margin-bottom: 10px;
   font-size: 1.4rem;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
 }
 
 .hero-copy {
