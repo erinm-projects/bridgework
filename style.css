@@ -587,17 +587,5 @@ li {
     flex-direction: column;
   }
 
-  .section-bg-icon {
-  position: absolute;
-  width: 650px;
-  bottom: -220px;
-  left: -180px;
-  transform: rotate(-45deg);
-
-  opacity: 0.06;
-  filter: grayscale(100%) brightness(1.2);
-
-  pointer-events: none;
-  z-index: 0;
-}
+  
 }
