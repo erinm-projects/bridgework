@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Atelia";
-  src: url("assets/fonts/atelia.woff2") format("woff2");
+  src: url("assets/fonts/Atelia.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Artific";
-  src: url("assets/fonts/artific-regular.woff2") format("woff2");
+  src: url("assets/fonts/artifictrial-black.otf") format("opentype");
 }
 
 :root {
@@ -208,6 +208,14 @@ h3 {
   color: var(--dark);
   box-shadow: var(--shadow);
   transform: rotate(2deg);
+  overflow: hidden;
+}
+
+.hero-card-image {
+  width: calc(100% + 68px);
+  height: 220px;
+  object-fit: cover;
+  margin: -34px -34px 28px;
 }
 
 .card-label,
@@ -418,10 +426,24 @@ li {
   color: var(--dark);
 }
 
+.hiya a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 .contact {
   text-align: center;
   background: var(--cream);
   color: var(--dark);
+}
+
+.contact .eyebrow {
+  color: var(--purple);
+}
+
+.contact h2 span {
+  color: var(--teal);
 }
 
 .contact p {
@@ -429,9 +451,9 @@ li {
   margin-right: auto;
 }
 
-.contact .primary {
-  background: var(--dark);
-  color: var(--cream);
+.contact-button {
+  background: var(--lime);
+  color: var(--dark);
 }
 
 .footer {
@@ -443,6 +465,17 @@ li {
   font-weight: 800;
   background: var(--cream);
   color: var(--dark);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  height: 28px;
+  width: auto;
 }
 
 .reveal {
