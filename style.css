@@ -577,26 +577,6 @@ li {
   }
 }
 
-/* Navigation */
-.nav a {
-    font-family: "Artific", Arial, sans-serif;
-    font-weight: 900;
-}
-
-/* Card headings */
-.theme-card h3,
-.price-card h3,
-.timeline-list h3 {
-    font-family: "Artific", Arial, sans-serif;
-    font-weight: 900;
-}
-
-/* Buttons */
-.nav-cta,
-.button {
-    font-family: "Artific", Arial, sans-serif;
-    font-weight: 900;
-}
 
 
 
