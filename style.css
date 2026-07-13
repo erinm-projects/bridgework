@@ -522,13 +522,13 @@ h3 {
 
 .timeline-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
   margin-top: 42px;
 }
 
 .timeline-list article {
-  min-height: 230px;
+  min-height: 200px;
   background: var(--cream);
   color: var(--dark);
 }
@@ -718,6 +718,10 @@ li {
   }
 
   .skills-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+.timeline-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
