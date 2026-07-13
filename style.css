@@ -872,7 +872,9 @@ li {
 .purpose-pledge-simple span {
   display: block;
   margin-bottom: 14px;
+
   color: var(--teal);
+
   font-family: "Artific Black", Arial, sans-serif;
   font-size: 0.84rem;
   font-weight: 900;
@@ -884,17 +886,11 @@ li {
   width: 100%;
   max-width: none;
   margin: 0;
+
   color: var(--dark);
+
   font-size: 1.2rem;
   line-height: 1.65;
-}
-
-.pledge-statement {
-  margin-bottom: 24px;
-}
-
-.pledge-body {
-  margin-top: 0;
 }
 
 
