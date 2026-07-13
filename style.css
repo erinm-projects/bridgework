@@ -369,6 +369,8 @@ h3 {
 
 
 .purpose {
+  display: block;
+  width: 100%;
   background: var(--cream);
   color: var(--dark);
 }
@@ -388,6 +390,7 @@ h3 {
 
 .purpose-columns {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 42px;
 }
@@ -433,8 +436,9 @@ h3 {
 }
 
 .purpose-pledge {
-  grid-column: 1 / -1;
+  display: block;
   width: 100%;
+  max-width: none;
   margin-top: 48px;
   padding: 28px 32px;
   border: 2px solid var(--cream);
