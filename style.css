@@ -417,16 +417,22 @@ h3 {
 .hear-pill {
   background: var(--lime);
   color: var(--dark);
+  border: 2px solid var(--dark);
+  box-sizing: border-box;
 }
 
 .understand-pill {
   background: var(--teal);
   color: var(--cream);
+  border: 2px solid var(--dark);
+  box-sizing: border-box;
 }
 
 .act-pill {
   background: var(--purple);
   color: var(--dark);
+  border: 2px solid var(--dark);
+  box-sizing: border-box;
 }
 
 .purpose-column p {
