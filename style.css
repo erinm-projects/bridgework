@@ -942,3 +942,9 @@ li {
     flex-direction: column;
   }
 }
+.purpose-pledge {
+  background: red !important;
+  border: 5px solid blue !important;
+  padding: 40px !important;
+  margin-top: 40px !important;
+}
