@@ -3,30 +3,23 @@ const revealElements = document.querySelectorAll(`
   .theme-card,
   .skill-card,
   .price-card,
-  .timeline-list article,
-  .activation-grid article,
-  .purpose-steps article
+  .timeline-list article
 `);
 
 revealElements.forEach((element) => {
   element.classList.add("reveal");
 });
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  {
-    threshold: 0.1,
-    rootMargin: "0px 0px -80px 0px"
-  }
-);
+const revealOnScroll = () => {
+  revealElements.forEach((element) => {
+    const elementTop = element.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
 
-revealElements.forEach((element) => {
-  observer.observe(element);
-});
+    if (elementTop < windowHeight - 80) {
+      element.classList.add("visible");
+    }
+  });
+};
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
