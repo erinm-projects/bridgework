@@ -281,7 +281,6 @@ h3 {
 }
 
 .intro p,
-.hiya p,
 .contact p,
 .purpose-copy > p:last-child,
 .young-people-intro > p:last-child {
@@ -465,6 +464,7 @@ h3 {
   border-radius: 999px;
   background: var(--cream);
   color: var(--dark);
+  font-family: "Artific Black", Arial, sans-serif;
   font-size: 1.35rem;
   line-height: 1.2;
   font-weight: 900;
@@ -789,6 +789,13 @@ li {
 .hiya {
   background: var(--purple);
   color: var(--dark);
+}
+
+.hiya p {
+  width: 100%;
+  max-width: none;
+  font-size: 1.25rem;
+  color: rgba(30, 30, 30, 0.72);
 }
 
 .hiya a {
