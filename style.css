@@ -461,17 +461,15 @@ h3 {
   min-width: 180px;
   padding: 14px 30px;
   margin-bottom: 22px;
-
   border: 2px solid var(--dark);
   border-radius: 999px;
-
   background: var(--lime);
   color: var(--dark);
-
   font-size: 1.35rem;
+  line-height: 1.2;
   font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .purpose-pledge p {
