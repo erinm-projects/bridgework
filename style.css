@@ -461,9 +461,9 @@ h3 {
   min-width: 180px;
   padding: 14px 30px;
   margin-bottom: 22px;
-  border: 2px solid var(--dark);
+  border: 2px solid var(--teal);
   border-radius: 999px;
-  background: var(--lime);
+  background: var(--cream);
   color: var(--dark);
   font-size: 1.35rem;
   line-height: 1.2;
