@@ -375,12 +375,14 @@ h3 {
 }
 
 .purpose-intro {
-  max-width: 880px;
+  width: 100%;
+  max-width: none;
   margin-bottom: 54px;
 }
 
 .purpose-intro > p:last-child {
-  max-width: 780px;
+  width: 100%;
+  max-width: none;
   font-size: 1.25rem;
   color: rgba(30, 30, 30, 0.72);
 }
@@ -443,9 +445,40 @@ h3 {
   align-items: start;
 }
 
-.young-people-intro .eyebrow {
-  grid-column: 1 / -1;
-  margin-bottom: -24px;
+.young-people-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 54px;
+  align-items: center;
+}
+
+.young-people-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.young-people-copy .eyebrow {
+  margin-bottom: 16px;
+}
+
+.young-people-copy h2 {
+  margin-bottom: 20px;
+}
+
+.young-people-copy > p:last-child {
+  max-width: 700px;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  color: rgba(30, 30, 30, 0.72);
+}
+
+.young-people-image {
+  display: block;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 28px;
 }
 
 .skills-grid {
@@ -562,15 +595,13 @@ h3 {
 }
 
 .activation-intro {
-  display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
-  gap: 54px;
-  align-items: start;
+  width: 100%;
+  max-width: none;
+  margin-bottom: 42px;
 }
 
 .activation-intro .eyebrow {
-  grid-column: 1 / -1;
-  margin-bottom: -24px;
+  margin-bottom: 16px;
 }
 
 .activation-grid {
@@ -605,7 +636,8 @@ h3 {
 }
 
 .activation-grid article:nth-child(2) {
-  background: var(--purple);
+  background: var(--teal);
+  color: var(--cream);
 }
 
 .activation-grid article:nth-child(3) {
@@ -639,8 +671,8 @@ h3 {
 }
 
 .price-card.featured {
-  background: var(--teal);
-  color: var(--cream);
+  background: var(--lime);
+  color: var(--dark);
   transform: translateY(-12px);
 }
 
@@ -769,11 +801,9 @@ li {
     transform: none;
   }
 
-  .young-people-intro .eyebrow,
-  .activation-intro .eyebrow {
-    grid-column: auto;
-    margin-bottom: 16px;
-  }
+ .activation-intro .eyebrow {
+  margin-bottom: 16px;
+}
 
   .grid,
   .pricing-grid,
