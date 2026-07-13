@@ -861,6 +861,22 @@ li {
   transform: translateY(0);
 }
 
+/* Purpose pledge overrides */
+.purpose-status {
+  margin-top: 80px;
+  padding: 40px;
+  border-color: var(--teal);
+}
+
+.purpose-status span {
+  color: var(--teal);
+  border-color: var(--teal);
+}
+
+.purpose-status strong {
+  color: var(--cream);
+}
+
 @media (max-width: 1180px) {
   .nav {
     gap: 14px;
