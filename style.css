@@ -408,6 +408,7 @@ h3 {
   min-width: 180px;
   margin-bottom: 22px;
   padding: 14px 30px;
+  border: 2px solid var(--dark);
   border-radius: 999px;
   font-size: 1.35rem;
   text-align: center;
@@ -545,7 +546,8 @@ h3 {
 
 .skills-note,
 .pricing-note {
-  max-width: 900px;
+  width: 100%;
+  max-width: none;
   margin: 36px 0 0;
   font-size: 1.1rem;
 }
