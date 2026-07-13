@@ -889,6 +889,14 @@ li {
   line-height: 1.65;
 }
 
+.pledge-statement {
+  margin-bottom: 24px;
+}
+
+.pledge-body {
+  margin-top: 0;
+}
+
 
 @media (max-width: 1180px) {
   .nav {
