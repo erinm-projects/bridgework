@@ -1139,3 +1139,9 @@ li {
   }
 }
 
+.pricing-note-vat {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
