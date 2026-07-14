@@ -1120,3 +1120,22 @@ li {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .reveal.visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .button,
+  .nav-cta,
+  .menu-toggle span {
+    transition: none;
+  }
+}
+
