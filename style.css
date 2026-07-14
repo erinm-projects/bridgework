@@ -160,6 +160,11 @@ a {
 
 .hero-content {
   max-width: 900px;
+  min-width: 0;
+}
+
+.hero-card {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -1068,11 +1073,29 @@ li {
   }
 
   h1 {
-    font-size: clamp(3.2rem, 18vw, 5rem);
+    max-width: 100%;
+    font-size: clamp(2.7rem, 13vw, 3.6rem);
+    line-height: 1.08;
+    overflow-wrap: break-word;
+  }
+
+  .hero,
+  .hero-content,
+  .hero-copy,
+  .hero-actions {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .hero-actions {
     flex-direction: column;
+  }
+
+  .hero-actions .button {
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
   }
 
   .button {
