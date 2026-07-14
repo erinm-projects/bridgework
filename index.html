@@ -11,20 +11,40 @@
   <link rel="stylesheet" href="style.css?v=2" />
 </head>
 
-<body>
-  <header class="site-header">
-    <a href="#" class="logo">BRIDGEWORK</a>
+<header class="site-header">
+  <a href="#" class="logo">BRIDGEWORK</a>
 
-    <nav class="nav">
-      <a href="#research">Research</a>
-      <a href="#young-people">Young people</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#pricing">Partner options</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#research">Research</a>
+    <a href="#young-people">Young people</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#pricing">Partner options</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <a href="#contact" class="nav-cta">Partner with us</a>
-  </header>
+  <a href="#contact" class="nav-cta">Partner with us</a>
+
+  <button
+    class="menu-toggle"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="mobile-nav"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#research">Research</a>
+    <a href="#young-people">Young people</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#pricing">Partner options</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="mobile-nav-cta">Partner with us</a>
+  </nav>
+</header>
 
   <main>
     <section class="hero">
