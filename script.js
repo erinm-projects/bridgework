@@ -6,20 +6,38 @@ const revealElements = document.querySelectorAll(`
   .timeline-list article
 `);
 
-revealElements.forEach((element) => {
-  element.classList.add("reveal");
-});
+const prefersReducedMotion = window.matchMedia(
+  "(prefers-reduced-motion: reduce)"
+).matches;
 
-const revealOnScroll = () => {
+if (prefersReducedMotion) {
   revealElements.forEach((element) => {
-    const elementTop = element.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
-
-    if (elementTop < windowHeight - 80) {
-      element.classList.add("visible");
-    }
+    element.classList.add("visible");
   });
-};
+} else {
+  revealElements.forEach((element) => {
+    element.classList.add("reveal");
+  });
+
+  const revealObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.05,
+      rootMargin: "0px 0px 100px 0px"
+    }
+  );
+
+  revealElements.forEach((element) => {
+    revealObserver.observe(element);
+  });
+}
 
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
