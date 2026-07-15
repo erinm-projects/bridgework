@@ -1230,6 +1230,7 @@ li {
 
 .research-method h3 {
   margin: 0 0 6px;
+  color: var(--lime);
   font-size: 1.15rem;
 }
 
