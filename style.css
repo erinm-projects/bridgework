@@ -1030,20 +1030,20 @@ li {
   .pricing-grid,
   .purpose-steps,
   .activation-grid {
-    grid-template-columns: 1fr;
+    grid-template-s: 1fr;
   }
 
   .skills-grid,
   .timeline-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-s: repeat(2, minmax(0, 1fr));
   }
 
-   .purpose-columns {
-    grid-template-columns: 1fr;
+   .purpose-s {
+    grid-template-s: 1fr;
     gap: 34px;
   }
 
-  .purpose-column p {
+  .purpose- p {
     max-width: 600px;
   }
 
@@ -1060,7 +1060,7 @@ li {
 @media (max-width: 640px) {
   .skills-grid,
   .timeline-list {
-    grid-template-columns: 1fr;
+    grid-template-s: 1fr;
   }
 }
 
@@ -1108,7 +1108,7 @@ li {
   }
 
   .hero-actions {
-    flex-direction: column;
+    flex-direction: ;
   }
 
   .hero-actions .button {
@@ -1119,7 +1119,7 @@ li {
   }
 
   .footer {
-    flex-direction: column;
+    flex-direction: ;
   }
 }
 
