@@ -1209,11 +1209,34 @@ li {
   margin-bottom: 48px;
 }
 
-.research-process p {
+.research-methods {
+  display: grid;
+  gap: 36px;
+  margin-top: 48px;
+}
+
+.research-method {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.research-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.research-method h3 {
+  margin-bottom: 10px;
+}
+
+.research-method p {
+  margin: 0;
+  max-width: none;
   font-size: 1.15rem;
   line-height: 1.8;
-  margin-bottom: 28px;
-  max-width: 800px;
 }
 
 /* Mobile */
