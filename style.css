@@ -1230,8 +1230,7 @@ li {
 
 .research-method h3 {
   color: var(--lime);
-  margin: 0 0 6px;
-  font-size: 1.15rem;
+  margin-bottom: 10px;
 }
 
 .research-method p {
