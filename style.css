@@ -745,6 +745,7 @@ h3 {
 .pricing-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 34px;
+  align-items: start;
 }
 
 .price-card {
