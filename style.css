@@ -752,6 +752,8 @@ h3 {
   background: var(--dark);
   color: var(--cream);
   border: 0;
+  align-self: start;
+  height: fit-content;
 }
 
 .price-card p,
