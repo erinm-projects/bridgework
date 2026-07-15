@@ -1152,6 +1152,17 @@ li {
   font-style: bold;
 }
 
+.price-column {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+
+.price-column .VAT {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
 /* ==========================
    FOUNDING PARTNER SECTION
 ========================== */
