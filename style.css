@@ -1148,5 +1148,99 @@ li {
   font-style: bold;
 }
 
+/* ==========================
+   FOUNDING PARTNER SECTION
+========================== */
+
+.founding-partner-section {
+  background: #1E1E1E;
+  color: #fffcf9;
+  padding: 120px 6%;
+}
+
+.founding-feature {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto 140px;
+  min-height: 650px;
+}
+
+.founding-image {
+  width: 75%;
+  height: 650px;
+  object-fit: cover;
+  display: block;
+}
+
+.founding-card {
+  position: absolute;
+  right: 0;
+  bottom: 60px;
+  width: min(520px, 48%);
+  background: #d1ff71;
+  color: #1E1E1E;
+  padding: 48px;
+}
+
+.founding-card h2 {
+  margin: 0 0 24px;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1;
+}
+
+.founding-card p {
+  margin-bottom: 20px;
+}
+
+.founding-note {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.research-process {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.research-process h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.9;
+  margin-bottom: 48px;
+}
+
+.research-process p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 28px;
+  max-width: 800px;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .founding-feature {
+    min-height: auto;
+  }
+
+  .founding-image {
+    width: 100%;
+    height: 400px;
+  }
+
+  .founding-card {
+    position: relative;
+    width: calc(100% - 24px);
+    margin: -60px 0 0 24px;
+    right: auto;
+    bottom: auto;
+    padding: 32px;
+  }
+
+  .research-process h1 {
+    font-size: clamp(2.8rem, 12vw, 4.5rem);
+  }
+
+}
 
 
