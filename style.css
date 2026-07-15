@@ -1222,15 +1222,16 @@ li {
 }
 
 .research-icon {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   object-fit: contain;
   margin-top: 7px;
 }
 
 .research-method h3 {
-  color: var(--teal);
+  color: var(--lime);
   margin: 0 0 6px;
+  font-size: 1.15rem;
 }
 
 .research-method p {
