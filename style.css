@@ -1295,9 +1295,9 @@ li {
 }
 
 .inline-bridgework-logo {
-  height: 0.9em;
+  height: 50px;
   width: auto;
-  vertical-align: middle;
   display: inline-block;
+  vertical-align: middle;
 }
 
