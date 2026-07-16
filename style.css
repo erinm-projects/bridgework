@@ -1294,4 +1294,10 @@ li {
   margin-right: 0;
 }
 
+.inline-bridgework-logo {
+  height: 0.9em;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
 
