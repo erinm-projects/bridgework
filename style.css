@@ -80,6 +80,12 @@ a {
   font-synthesis: none;
 }
 
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 .nav {
   display: flex;
   gap: 22px;
