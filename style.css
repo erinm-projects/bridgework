@@ -856,7 +856,7 @@ li {
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .footer-logo img {
@@ -1289,7 +1289,7 @@ li {
 }
 
 .footer-bridgework-logo {
-  height: 30px;
+  height: 35px;
   width: auto;
 }
 
