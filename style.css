@@ -1353,3 +1353,25 @@ li {
     padding: 24px;
   }
 }
+
+/* ========================================
+   RESEARCH THEMES PLEDGE
+   ======================================== */
+
+.research-pledge {
+  border-top: 1px solid rgba(246, 243, 237, 0.4);
+  padding-top: 28px;
+  margin-top: 20px;
+}
+
+.research-pledge h3 {
+  color: var(--lime);
+  margin: 0 0 12px;
+}
+
+.research-pledge p {
+  color: var(--cream);
+  max-width: 900px;
+  margin: 0;
+  line-height: 1.6;
+}
