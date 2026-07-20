@@ -302,8 +302,8 @@ h3 {
 
 .split {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 54px;
+  grid-template-columns: 1fr;
+  gap: 40px;
   background: var(--dark);
   color: var(--cream);
 }
@@ -336,7 +336,7 @@ h3 {
 }
 
 .theme-card {
-  min-height: 230px;
+  min-height: 180px;
   border: 0;
   color: var(--dark);
 }
