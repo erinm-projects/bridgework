@@ -1303,30 +1303,33 @@ li {
 
 /* ========================================
    STARTING POINT SECTION
+   Three-card layout, no images
    ======================================== */
 
 .starting-point-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: 24px;
   margin-top: 40px;
 }
 
 .starting-point-card {
-  padding: 32px;
+  background: var(--cream);
+  color: var(--dark);
   border-radius: 24px;
-  background: var(--dark);
-  color: var(--cream);
+  padding: 32px;
 }
 
 .starting-point-card h3 {
-  margin: 0 0 18px;
-  color: var(--cream);
+  margin: 0 0 16px;
+  color: var(--dark);
+  font-weight: 800;
 }
 
 .starting-point-card p {
   margin: 0 0 18px;
-  color: rgba(246, 243, 237, 0.82);
+  color: var(--dark);
+  line-height: 1.6;
 }
 
 .starting-point-card p:last-child {
@@ -1334,17 +1337,19 @@ li {
 }
 
 .starting-point-card a {
-  color: var(--lime);
+  color: var(--dark);
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .starting-point-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .starting-point-card {
     padding: 24px;
   }
 }
-
