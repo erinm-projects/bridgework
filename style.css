@@ -222,7 +222,7 @@ h3 {
 
 .hero-copy {
   max-width: 680px;
-  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
   color: rgba(246, 243, 237, 0.78);
 }
 
