@@ -298,7 +298,11 @@ h3 {
 
   box-shadow: var(--shadow);
 
-  transform: translate(-50px, 120px) rotate(2deg);
+  transform: rotate(2deg);
+
+  position: relative;
+  left: -40px;
+  top: 40px;
 
   overflow: hidden;
 }
