@@ -787,21 +787,33 @@ h3 {
   color: var(--dark);
 }
 
-.timeline-list article:nth-child(3n + 1) {
+/* AUG / SEPT / OCT */
+.timeline-list article:nth-child(1),
+.timeline-list article:nth-child(2),
+.timeline-list article:nth-child(3) {
   background: var(--teal);
   color: var(--cream);
 }
 
-.timeline-list article:nth-child(3n + 1) p {
+.timeline-list article:nth-child(1) p,
+.timeline-list article:nth-child(2) p,
+.timeline-list article:nth-child(3) p {
   color: rgba(246, 243, 237, 0.82);
 }
 
-.timeline-list article:nth-child(3n + 2) {
+/* NOV / JAN / FEB / MARCH */
+.timeline-list article:nth-child(4),
+.timeline-list article:nth-child(5),
+.timeline-list article:nth-child(6),
+.timeline-list article:nth-child(7) {
   background: var(--purple);
   color: var(--dark);
 }
 
-.timeline-list article:nth-child(3n) {
+/* MAY / JUNE / SEPTEMBER */
+.timeline-list article:nth-child(8),
+.timeline-list article:nth-child(9),
+.timeline-list article:nth-child(10) {
   background: var(--lime);
   color: var(--dark);
 }
@@ -1635,4 +1647,78 @@ li {
   max-width: 900px;
   margin: 0;
   line-height: 1.6;
+}
+
+@media (min-width: 1181px) {
+
+  /* Reverse bottom row */
+  .timeline-list article:nth-child(6) {
+    grid-column: 5;
+    grid-row: 2;
+  }
+
+  .timeline-list article:nth-child(7) {
+    grid-column: 4;
+    grid-row: 2;
+  }
+
+  .timeline-list article:nth-child(8) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .timeline-list article:nth-child(9) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .timeline-list article:nth-child(10) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .timeline-list article {
+    position: relative;
+  }
+
+  /* Top row connecting lines */
+  .timeline-list article:nth-child(1)::after,
+  .timeline-list article:nth-child(2)::after,
+  .timeline-list article:nth-child(3)::after,
+  .timeline-list article:nth-child(4)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -18px;
+    width: 18px;
+    height: 2px;
+    background: var(--cream);
+  }
+
+  /* Bottom row connecting lines */
+  .timeline-list article:nth-child(6)::after,
+  .timeline-list article:nth-child(7)::after,
+  .timeline-list article:nth-child(8)::after,
+  .timeline-list article:nth-child(9)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -18px;
+    width: 18px;
+    height: 2px;
+    background: var(--cream);
+  }
+
+  /* January → February curved connector */
+  .timeline-list article:nth-child(5)::before {
+    content: "";
+    position: absolute;
+    right: -12px;
+    bottom: -20px;
+    width: 24px;
+    height: 40px;
+    border-right: 2px solid var(--cream);
+    border-bottom: 2px solid var(--cream);
+    border-radius: 0 0 18px 0;
+  }
 }
