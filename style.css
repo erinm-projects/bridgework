@@ -244,6 +244,9 @@ h3 {
   box-shadow: var(--shadow);
   transform: rotate(2deg);
   overflow: hidden;
+
+  width: 50%;
+  justify-self: end;
 }
 
 .hero-card-image {
