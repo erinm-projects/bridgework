@@ -484,6 +484,24 @@ h3 {
   align-items: start;
 }
 
+.expandable-theme .theme-preview {
+  display: inline;
+  margin: 0;
+}
+
+.expandable-theme .theme-more {
+  display: none;
+}
+
+.expandable-theme .theme-more p {
+  display: inline;
+  margin: 0;
+}
+
+.expandable-theme .theme-more[style*="display: block"] {
+  display: inline !important;
+}
+
 /* ========================================
    PURPOSE SECTION
    Split layout with overlapping pills
