@@ -461,6 +461,37 @@ h3 {
   transform: translateY(60px);
 }
 
+.expandable-theme {
+  position: relative;
+}
+
+.theme-preview {
+  margin-bottom: 0;
+}
+
+.theme-more {
+  display: none;
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 28px;
+  bottom: 22px;
+
+  width: 40px;
+  height: 40px;
+
+  border: 0;
+  background: transparent;
+
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  color: currentColor;
+
+  cursor: pointer;
+}
+
 /* ========================================
    PURPOSE SECTION
    Split layout with overlapping pills
