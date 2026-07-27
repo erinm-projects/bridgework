@@ -31,6 +31,11 @@
   --shadow: 0 24px 80px rgba(30, 30, 30, 0.18);
 }
 
+strong {
+  font-family: "Artific Black", Arial, sans-serif;
+  font-weight: normal;
+}
+
 * {
   box-sizing: border-box;
 }
