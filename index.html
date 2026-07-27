@@ -57,7 +57,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/HiyaSQU.png">
 <link rel="shortcut icon" href="/assets/icons/HiyaSQU.png">
 
-  <link rel="stylesheet" href="style.css?v=2.53" />
+  <link rel="stylesheet" href="style.css?v=2.54" />
 </head>
 
 <header class="site-header">
@@ -769,5 +769,19 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <script>
+  document.querySelectorAll('.theme-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const card = button.closest('.expandable-theme');
+      const more = card.querySelector('.theme-more');
+
+      const isOpen = more.style.display === 'block';
+
+      more.style.display = isOpen ? 'none' : 'block';
+      button.textContent = isOpen ? '+' : '−';
+    });
+  });
+</script>
 </body>
 </html>
