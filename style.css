@@ -264,11 +264,11 @@ h3 {
 
 .hero-report img {
   display: block;
-  width: 125%;
-  max-width: 625px;
+  width: 150%;
+  max-width: 750px;
   height: auto;
   object-fit: contain;
-  transform: rotate(22.5deg);
+  transform: translateY(-60px) rotate(52.5deg);
 }
 
 .card-label,
