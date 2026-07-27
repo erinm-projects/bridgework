@@ -255,6 +255,21 @@ h3 {
   margin: -34px -34px 20px;
 }
 
+.hero-report {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.hero-report img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
 .card-label,
 .theme-card span,
 .skill-card span,
