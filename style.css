@@ -243,7 +243,7 @@ h3 {
   background: var(--cream);
   color: var(--dark);
   box-shadow: var(--shadow);
-  transform: translate(-60px, -70px) rotate(2deg) scale(0.65);
+  transform: translate(-60px, -210px) rotate(2deg) scale(0.65);
   transform-origin: bottom right;
   overflow: hidden;
 }
