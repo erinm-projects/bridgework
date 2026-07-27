@@ -604,6 +604,18 @@ h3 {
   color: var(--cream);
 }
 
+.full-width-image {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+}
+
+.full-width-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Mobile */
 
 @media (max-width: 900px) {
