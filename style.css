@@ -1730,6 +1730,6 @@ li {
 
 .project-card {
   position: relative !important;
-  left: -120px !important;
-  top: 120px !important;
+  left: -80px !important;
+  top: 100px !important;
 }
