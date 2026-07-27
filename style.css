@@ -507,6 +507,11 @@ h3 {
   line-height: 1.5;
 }
 
+.partner-intro {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 /* ========================================
    PURPOSE SECTION
    Split layout with overlapping pills
