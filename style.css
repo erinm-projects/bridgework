@@ -461,29 +461,23 @@ h3 {
   transform: translateY(60px);
 }
 
-.expandable-theme {
-  position: relative;
-}
-
-.theme-preview {
-  margin-bottom: 0;
-}
-
-.theme-more {
+.expandable-theme .theme-more {
   display: none;
 }
 
-.theme-toggle {
+.expandable-theme .theme-toggle {
   position: absolute;
   right: 28px;
   bottom: 22px;
 
-  width: 40px;
-  height: 40px;
+  appearance: none;
+  -webkit-appearance: none;
 
-  border: 0;
-  background: transparent;
+  border: none;
+  padding: 0;
+  background: none;
 
+  font-family: inherit;
   font-size: 2rem;
   line-height: 1;
   font-weight: 700;
