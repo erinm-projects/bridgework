@@ -1709,16 +1709,17 @@ li {
     background: var(--cream);
   }
 
-  /* January → February curved connector */
-  .timeline-list article:nth-child(5)::before {
-    content: "";
-    position: absolute;
-    right: -12px;
-    bottom: -20px;
-    width: 24px;
-    height: 40px;
-    border-right: 2px solid var(--cream);
-    border-bottom: 2px solid var(--cream);
-    border-radius: 0 0 18px 0;
-  }
+/* January → February curved connector */
+.timeline-list article:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -28px;
+  width: 28px;
+  height: calc(100% + 18px);
+  border-top: 2px solid var(--cream);
+  border-right: 2px solid var(--cream);
+  border-bottom: 2px solid var(--cream);
+  border-radius: 0 18px 18px 0;
+}
 }
