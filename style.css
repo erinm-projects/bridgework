@@ -1727,3 +1727,9 @@ li {
   border-radius: 0 18px 18px 0;
 }
 }
+
+.project-card {
+  position: relative !important;
+  left: -120px !important;
+  top: 120px !important;
+}
