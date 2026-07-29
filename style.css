@@ -1739,4 +1739,101 @@ li {
   margin: 0 auto;
 }
 
+/* =========================================================
+   THE IMPACT
+========================================================= */
 
+.impact-section {
+  background: #ffffff;
+  padding: 90px 40px;
+}
+
+.impact-container {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+}
+
+
+/* 2 X 2 CARD GRID */
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  margin-top: 50px;
+}
+
+
+/* CARDS */
+
+.impact-card {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 280px;
+  padding: 36px;
+
+  border-radius: var(--radius);
+}
+
+
+/* CARD COLOURS */
+
+.impact-card--black {
+  background: var(--dark);
+  color: #ffffff;
+}
+
+.impact-card--teal {
+  background: var(--teal);
+  color: #ffffff;
+}
+
+
+/* LARGE BACKGROUND NUMBER */
+
+.impact-number {
+  position: absolute;
+
+  right: 20px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  font-size: 15rem;
+  font-weight: 900;
+  line-height: 0.8;
+
+  opacity: 0.12;
+
+  pointer-events: none;
+}
+
+
+/* CARD TEXT */
+
+.impact-card-content {
+  position: relative;
+  z-index: 2;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.impact-card-content h3 {
+  margin: 0 0 8px;
+
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.impact-card-content p {
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.4;
+}
