@@ -510,12 +510,9 @@ h3 {
   display: inline !important;
 }
 
-.project-intro {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.partner-intro {
+.project-intro, 
+.partner-intro,
+.impact-intro {
   font-size: 1.25rem;
   line-height: 1.5;
 }
