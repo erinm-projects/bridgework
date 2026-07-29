@@ -1839,16 +1839,16 @@ li {
 }
 
 /* =========================================================
-   IMPACT CARD 01 — HOVER TEST
+   IMPACT CARDS — HOVER
 ========================================================= */
 
 /* Normal content */
-.impact-card:first-child .impact-card-content {
+.impact-card .impact-card-content {
   transition: opacity 250ms ease;
 }
 
 /* Hover copy */
-.impact-card:first-child .impact-card-hover {
+.impact-card .impact-card-hover {
   position: absolute;
   z-index: 3;
 
@@ -1861,19 +1861,19 @@ li {
   transition: opacity 250ms ease;
 }
 
-.impact-card:first-child .impact-card-hover p {
+.impact-card .impact-card-hover p {
   margin: 0;
 
   font-size: 1.15rem;
   line-height: 1.5;
 }
 
-/* On hover: hide original content */
-.impact-card:first-child:hover .impact-card-content {
+/* On hover: hide header + subheader */
+.impact-card:hover .impact-card-content {
   opacity: 0;
 }
 
 /* On hover: reveal sentence */
-.impact-card:first-child:hover .impact-card-hover {
+.impact-card:hover .impact-card-hover {
   opacity: 1;
 }
