@@ -1868,3 +1868,9 @@ li {
   color: var(--teal);
   margin: 0;
 }
+
+.storytelling-image {
+  width: 200px;
+  height: auto;
+  transform: rotate(180deg);
+}
