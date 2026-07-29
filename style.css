@@ -1728,4 +1728,15 @@ li {
 }
 }
 
+  /* NEW IMPACT SECTION */
+.impact-section {
+  background: #ffffff;
+  padding: 90px 40px;
+}
+
+.impact-container {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+}
+
 
