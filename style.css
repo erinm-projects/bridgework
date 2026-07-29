@@ -1879,13 +1879,7 @@ li {
 }
 
 /* Branded Font */
-.brand-text {
-  color: var(--lime);
-  font-weight: 900;
-
-  text-shadow:
-    -1px -1px 0 var(--purple),
-     1px -1px 0 var(--purple),
-    -1px  1px 0 var(--purple),
-     1px  1px 0 var(--purple);
+.impact-closing {
+  color: var(--teal);
+  margin: 0;
 }
