@@ -1917,20 +1917,46 @@ li {
   }
 
 
-  /* --------------------------
-     PURPOSE
-  -------------------------- */
+ /* --------------------------
+   PURPOSE
+-------------------------- */
 
-  .purpose-layout {
-    display: flex;
-    flex-direction: column;
-  }
+.purpose {
+  display: flex;
+  flex-direction: column;
+}
 
-  .full-width-image {
-    order: -1;
-    margin-top: 0;
-    margin-bottom: 36px;
-  }
+.purpose-layout {
+  display: contents;
+}
+
+.purpose-intro {
+  order: 1;
+}
+
+.full-width-image {
+  order: 2;
+  width: 100%;
+  margin: 0 0 36px;
+  overflow: hidden;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+}
+
+.purpose-visual {
+  order: 3;
+}
+
+.purpose-pledge-simple {
+  order: 4;
+}
+
+.purpose-step {
+  width: 100%;
+}
 
 
   /* --------------------------
@@ -1947,8 +1973,9 @@ li {
   -------------------------- */
 
   .timeline-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
 
 
   /* --------------------------
@@ -1981,12 +2008,9 @@ li {
     grid-template-columns: 1fr;
   }
 
-}
-
   .theme-card {
     width: 100%;
   }
-}
 
 @media (max-width: 768px) {
   .timeline-list {
