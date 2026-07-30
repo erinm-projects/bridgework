@@ -1889,3 +1889,19 @@ li {
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 768px) {
+  .research-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .research-themes-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .theme-card {
+    width: 100%;
+  }
+}
