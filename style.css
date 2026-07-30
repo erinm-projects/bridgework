@@ -1875,3 +1875,17 @@ li {
   margin-top: 30px;
   transform: rotate(180deg);
 }
+
+/* NEW MOBILE SECTION */
+@media (max-width: 768px) {
+  .project-card {
+    position: relative;
+    left: auto;
+    top: auto;
+    justify-self: center;
+    width: calc(100% - 16px);
+    max-width: 520px;
+    margin: 0 auto;
+    transform: rotate(0deg);
+  }
+}
