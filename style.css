@@ -2044,11 +2044,12 @@ li {
 }
   
   .menu-toggle {
-    position: fixed;
-    top: 16px;
-    right: 16px;
-    z-index: 10001;
-  }
+  display: flex;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 10001;
+}
 
   .mobile-nav {
     position: fixed;
