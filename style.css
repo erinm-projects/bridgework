@@ -2037,5 +2037,9 @@ li {
   .timeline-list article span {
     font-size: 0.68rem;
   }
-}
 
+  .storytelling-image {
+  width: 50%;
+  height: auto;
+}
+}
