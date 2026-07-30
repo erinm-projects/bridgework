@@ -1876,30 +1876,112 @@ li {
   transform: rotate(180deg);
 }
 
-/* NEW MOBILE SECTION */
+/* =========================================================
+   MOBILE LAYOUT OVERRIDES
+========================================================= */
+
 @media (max-width: 768px) {
+
+  /* --------------------------
+     PROJECT
+  -------------------------- */
+
+  .project-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
   .project-card {
-    position: relative;
+    position: static;
     left: auto;
     top: auto;
     justify-self: center;
-    width: calc(100% - 16px);
-    max-width: 520px;
     margin: 0 auto;
-    transform: rotate(0deg);
+    width: 100%;
+    max-width: 520px;
+    transform: none;
   }
-}
 
-@media (max-width: 768px) {
+
+  /* --------------------------
+     RESEARCH THEMES
+  -------------------------- */
+
   .research-layout {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 36px;
   }
 
   .research-themes-grid {
     grid-template-columns: 1fr;
-    width: 100%;
   }
+
+
+  /* --------------------------
+     PURPOSE
+  -------------------------- */
+
+  .purpose-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .full-width-image {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+
+
+  /* --------------------------
+     BUILT WITH YOUNG PEOPLE
+  -------------------------- */
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* --------------------------
+     TIMELINE
+  -------------------------- */
+
+  .timeline-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  /* --------------------------
+     BEYOND THE REPORT
+  -------------------------- */
+
+  .activation-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* --------------------------
+     PRICING
+  -------------------------- */
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .price-card.featured {
+    transform: none;
+  }
+
+
+  /* --------------------------
+     RESEARCH IMPACT
+  -------------------------- */
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
 
   .theme-card {
     width: 100%;
