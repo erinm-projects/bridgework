@@ -2042,4 +2042,26 @@ li {
   width: -50%;
   height: auto;
 }
+  @media (max-width: 768px) {
+  .menu-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 10001;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 72px;
+    right: 16px;
+    z-index: 10000;
+    width: min(280px, calc(100vw - 32px));
+    padding: 20px;
+    background: var(--cream);
+    border: 2px solid var(--dark);
+    border-radius: 20px;
+    box-shadow: 0 16px 40px rgba(30, 30, 30, 0.2);
+  }
 }
+}
+  
